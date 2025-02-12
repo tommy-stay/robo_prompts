@@ -1,0 +1,6 @@
+print("There was a person called", person, "Who did something cool like", thing, "at the wonderful", place,  "where you'll find me", rhyme)
+food = input("Name a type of food: ")
+plant = input("Name a plant: ")
+cookingType = input("What is a way to cook something? ")
+burntFood = input("How do you describe burnt food? ")
+householdItem = input("Name something in your house: ")
