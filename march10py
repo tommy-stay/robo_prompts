@@ -1,0 +1,8 @@
+youtubeSeries = input("Are you a true fan of SKZ Code?")
+if youtubeSeries == "Yes":
+  print("Oh really?!")
+  faveCharacter = input("What was the first episode?")
+  if faveCharacter == "Winter Wars":
+    print("Dang.. maybe you are a true fan")
+  else:
+    print("I knew it! You're a fake!")
