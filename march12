@@ -1,0 +1,17 @@
+print("Hello. Welcome to your daily affirmation generator.")
+name = input("What is your name? ")
+
+
+
+if name =="Tomi" or name == "tomi":
+ DOW = input("What is the day of the week? ")
+ if DOW == "monday" or DOW == "Monday":
+   print("You're a bit far behind. It's Wednesday...", name)
+ if DOW == "tuesday" or DOW == "Tuesday":
+   print("I mean, you're close, it's Wednesday", name)
+ if DOW == "wednesday" or DOW == "Wednesday":
+   print("Congrats! You're right!", name)
+ if DOW == "thursday" or DOW == "Thursday":
+   print(name,"It's wrong but you're close!")
+ if DOW == "friday" or DOW == "Friday":
+   print(name, "You're in the future! Come back!")
